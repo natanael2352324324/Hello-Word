@@ -1,0 +1,18 @@
+<body>
+        <script src="App.js">
+            var contenedor = new function () {
+             var self = this;   
+                self.selector = {
+                    contenedor: function (concat) {
+                        var cnt = "#contenedor";
+                        if(!concat) return cnt;
+                        return cnt + " " + concat;
+                    }
+                };
+                self.init = function () {
+            }
+                self.init();
+            }
+        </script>
+    </body>
+</htmtl>
